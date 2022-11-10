@@ -7,7 +7,8 @@
 /* basic */
 
 div {
-    border: 2px solid darkslategray;
+    /* border: 2px solid darkslategray; */
+    border: none;
     padding: 30px;
     margin: 5px;
 }
