@@ -4,15 +4,39 @@
     margin: 0;
 }
 
-/* basic */
+/* basic - Space, Border */
 
-div {
-    border: 2px solid darkslategray;
+div, header, h1, p, img, a {
     padding: 30px;
     margin: 5px;
 }
 
-img {
-    width: 100%;
-    height: 100%;
+div, header {
+    border: 2px solid darkslategray;
 }
+
+h1 {
+    border: 2px solid rgb(110, 161, 255);
+}
+
+p {
+    border: 2px solid rgb(192, 0, 160);
+}
+
+img {
+    border: 2px solid rgb(255, 136, 0);
+}
+
+a {
+    border: 2px solid rgb(57, 231, 51);
+}
+
+
+/* basic - height */
+
+img {
+    height: 3em;
+}
+
+
+
