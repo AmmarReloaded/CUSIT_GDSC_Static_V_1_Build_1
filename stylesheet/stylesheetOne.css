@@ -314,3 +314,7 @@ section {
 .fa-facebook:before {
     content: "\f09a";
 }
+
+.md\:grid-cols-4 {
+    grid-template-columns: repeat(4,minmax(0,1fr));
+}
