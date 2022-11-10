@@ -313,3 +313,13 @@ section {
     font-family: "Font Awesome 5 Brands";
 }
 
+<<<<<<< HEAD
+=======
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.md\:grid-cols-4 {
+    grid-template-columns: repeat(4,minmax(0,1fr));
+}
+>>>>>>> draft_final_1__1_layout_content_5
