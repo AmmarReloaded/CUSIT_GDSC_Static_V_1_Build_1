@@ -1,7 +1,52 @@
+/* 
+
+*   - all
+
+basic - space -- padding, margin, border
+basic - height
+
+basic - 2 - neutral - space -- padding, margin, border
+
+>>> size
+
+- height
+- width
+
+>>> space
+
+- padding
+
+>>> layout
+
+>>> > arrangment
+
+-- flex
+
+>>> > Alignment
+
+>>> border
+
+- border-width
+- border-color
+
+>>> font
+
+- letter-spacing
+- color
+
+
+
+*/
+
 * {
     box-sizing: border-box;
     box-sizing: inherit;
     margin: 0;
+}
+
+*, :after, :before {
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
 }
 
 /* basic - Space, Border */
@@ -9,26 +54,31 @@
 div, header, h1, p, img, a {
     padding: 30px;
     margin: 5px;
+    border: 2px solid;
 }
 
-div, header {
-    border: 2px solid darkslategray;
+div {
+    border-color: rgb(43, 43, 43);
+} 
+
+header {
+    border-color: rgb(38, 52, 255);
 }
 
 h1 {
-    border: 2px solid rgb(110, 161, 255);
+    border-color: rgb(110, 161, 255);
 }
 
 p {
-    border: 2px solid rgb(192, 0, 160);
+    border-color: rgb(192, 0, 160);
 }
 
 img {
-    border: 2px solid rgb(255, 136, 0);
+    border-color: rgb(255, 136, 0);
 }
 
 a {
-    border: 2px solid rgb(57, 231, 51);
+    border-color: rgb(57, 231, 51);
 }
 
 
@@ -39,4 +89,103 @@ img {
 }
 
 
+/* basic - font-family, color */
 
+body {
+    color: #333;
+    font-family: Google Sans,sans-serif;
+}
+
+/* basic - text */
+
+a {
+    text-decoration: inherit;
+}
+
+
+/* basic - 2 - space, border */
+
+.div-neutral, .header-neutral, .h1-neutral, .p-neutral, .img-neutral, .a-neutral {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+
+/* height */
+
+.h-6 {
+    height: 1.5rem;
+}
+
+/* padding */
+
+.py-3 {
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+}
+
+.py-4 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.md\:p-4 {
+    padding: 1rem;
+}
+
+
+/* layout - arrangment -- flex */
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1 1;
+}
+
+
+/* layout - alignment -- flex */
+
+.items-center {
+    align-items: center;
+}
+
+/* >> border */
+
+/* - border - width */
+
+.border-b-2 {
+    border-bottom-width: 2px;
+}
+
+
+/* - border - color */
+
+.border-b-color-e5e7eb {
+    border-bottom-color: #e5e7eb;
+}
+
+
+
+/* font */
+
+/* font - letter-spacing */
+
+.tracking-wider {
+    letter-spacing: .05em;
+}
+
+
+/* font - color */
+
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99/var(--tw-text-opacity));
+}
