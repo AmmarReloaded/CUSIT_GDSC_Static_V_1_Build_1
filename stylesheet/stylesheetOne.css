@@ -101,7 +101,9 @@ button, input, optgroup, select, textarea {
 /* basic - height */
 
 img {
-    height: 3em;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 
@@ -163,14 +165,46 @@ a {
     }    
 }
 
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }    
+}
+
+
 @media (min-width: 1366px) {
     .container {
         max-width: 1366px;
     }    
 }
 
+
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1920px;
+    }    
+}
+
+
 .container {
     width: 100%;
+}
+
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+
+@media (min-width: 768px)   {
+    .md\:w-6\/12 {
+        width: 50%;
+    }
 }
 
 
@@ -185,6 +219,11 @@ a {
 }
 
 
+.py-2 {
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
 
 .py-3 {
     padding-bottom: .75rem;
@@ -196,11 +235,22 @@ a {
     padding-top: 1rem;
 }
 
+.py-8 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+
 @media (min-width: 768px)   {
     .md\:py-6 {
         padding-bottom: 1.5rem;
         padding-top: 1.5rem;
     }
+}
+
+.px-2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .px-4 {
@@ -238,6 +288,14 @@ a {
 
 .flex-col {
     flex-direction: column;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 /* layout - alignment -- flex */
@@ -359,6 +417,10 @@ a {
     border-radius: .125rem;
 }
 
+.rounded-lg {
+    border-radius: .5rem;
+}
+
 /* margin */
 
 
@@ -456,6 +518,10 @@ a {
     color: rgb(26 115 232/var(--tw-text-opacity));
 }
 
+.bg-gray-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(75 85 99/var(--tw-bg-opacity));
+}
 
 .bg-transparent {
     background-color: transparent;
@@ -475,9 +541,19 @@ a {
     line-height: 1.75rem;
 }
 
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
 .text-5xl {
     font-size: 3rem;
     line-height: 1;
+}
+
+.text-xs {
+    font-size: .75rem;
+    line-height: 1rem;
 }
 
 .leading-relaxed {
