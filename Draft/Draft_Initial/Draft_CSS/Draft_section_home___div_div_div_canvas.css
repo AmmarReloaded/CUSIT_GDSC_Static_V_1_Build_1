@@ -1,0 +1,219 @@
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* a_button___contact ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+
+.hover\:text-white:hover {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+}
+
+.hover\:bg-blue-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(25 103 210/var(--tw-bg-opacity));
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* a___contact ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+
+.text-blue-500 {
+    --tw-text-opacity: 1;
+    color: rgb(26 115 232/var(--tw-text-opacity));
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.border-blue-500 {
+    --tw-border-opacity: 1;
+    border-color: rgb(26 115 232/var(--tw-border-opacity));
+}
+
+.border {
+    border-width: 1px;
+}
+
+.rounded-sm {
+    border-radius: .125rem;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* a___join ------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+.shadow-lg {
+    --tw-shadow: 0 8px 10px 1pxrgba(0,0,0,.14),0 3px 14px 2pxrgba(0,0,0,.12),0 5px 5px -3pxrgba(0,0,0,.2);
+    --tw-shadow-colored: 0 8px 10px 1pxvar(--tw-shadow-color),0 3px 14px 2px var(--tw-shadow-color),0 5px 5px -3px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.py-4 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+
+/* Padding */
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+/* Color */
+
+.bg-blue-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 115 232/var(--tw-bg-opacity));
+}
+
+/* Border */
+
+.rounded-sm {
+    border-radius: .125rem;
+}
+
+
+/* Margin */
+
+
+.md\:mr-10 {
+    margin-right: 2.5rem;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* p -------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+
+
+.text-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99/var(--tw-text-opacity));
+}
+
+.leading-relaxed {
+    line-height: 1.625;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* h1 ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+
+.text-red-400 {
+    --tw-text-opacity: 1;
+    color: rgb(234 67 53/var(--tw-text-opacity));
+}
+
+.text-green-400 {
+    --tw-text-opacity: 1;
+    color: rgb(52 168 83/var(--tw-text-opacity));
+}
+
+.text-blue-400 {
+    --tw-text-opacity: 1;
+    color: rgb(66 133 244/var(--tw-text-opacity));
+}
+
+.text-yellow-400 {
+    --tw-text-opacity: 1;
+    color: rgb(251 188 4/var(--tw-text-opacity));
+}
+
+/* Font */
+
+body {
+    color: #333;
+    font-family: Google Sans,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+/* ALL */
+
+*, :after, :before {
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+
+/* text */
+
+.text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.leading-tight {
+    line-height: 1.25;
+}
+
+
+
+/* margin */
+
+.mb-16 {
+    margin-bottom: 4rem;
+}
