@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    box-sizing: inherit;
+    margin: 0;
+}
+
+div {
+    border: 2px solid darkslategray;
+    padding: 30px;
+    margin: 5px;
+}
+
+.grid-wrapper {
+
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 10px;
+
+    width: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
